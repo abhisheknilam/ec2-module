@@ -1,5 +1,5 @@
-resource "aws_security_group" "demo_allow_http" {
-  name        = "demo_allow_http"
+resource "aws_security_group" "demo_allow_http_module" {
+  name        = "demo_allow_http_module"
   description = "Allow hhtp inbound traffic"
   vpc_id      = "vpc-096e88d61502d2994"
 
