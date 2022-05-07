@@ -14,7 +14,7 @@ created_at_date="march 22"
 
 }
 
-security_groups = [  aws_security_group.demo_allow_http_module.id ]
+security_groups = [  aws_security_group.demo_allow_http.id ]
 
 user_data =<<-EOF
               #!/bin/bash
